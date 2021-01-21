@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.backyard.test.activites.RunnerTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.813 s <<< FAILURE! - in com.backyard.test.activites.RunnerTests
+Feature: Create Read Updated Remove Activites  Time elapsed: 2.811 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.backyard.test.activities.stepDefinition [Xlint:invalidAbsoluteTypeName]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.backyard.test.activities.stepDefinition [Xlint:invalidAbsoluteTypeName]
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.backyard.test.activities.stepDefinition [Xlint:invalidAbsoluteTypeName]
+

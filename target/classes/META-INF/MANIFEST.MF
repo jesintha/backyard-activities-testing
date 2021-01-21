@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Jesintha
+Build-Jdk: 15.0.1
+Implementation-Title: backyard-backend-testing
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: com.backyard.test
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/backyard-backend-testing
+Created-By: Maven Integration for Eclipse
+
